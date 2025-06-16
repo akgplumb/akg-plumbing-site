@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AKG Plumbing | Cape Town</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #2d4d2c; color: white; text-align: center; padding: 30px 20px; }
+    header img { width: 100px; height: auto; margin-bottom: 10px; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.1em; }
+    .btn {
+      display: inline-block;
+      background: #456d45;
+      color: white;
+      padding: 12px 20px;
+      margin: 10px 10px 0 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services, .areas, .contact, .testimonials, .gallery {
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 { color: #2d4d2c; }
+    ul { list-style: none; padding-left: 0; }
+    li::before {
+      content: '✔️';
+      margin-right: 8px;
+      color: #2d4d2c;
+    }
+    .testimonials blockquote {
+      border-left: 4px solid #456d45;
+      margin: 10px 0;
+      padding-left: 15px;
+      font-style: italic;
+      color: #555;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    form button {
+      background-color: #456d45;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #365c35;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      padding: 20px;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+      .btn {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/akg-logo.png" alt="AKG Plumbing Logo" />
+  <h1>AKG Plumbing</h1>
+  <p>Trusted Plumbing Services in Cape Town & Western Cape</p>
+  <a href="tel:+27XXXXXXXXX" class="btn">📞 Call Now</a>
+  <a href="https://wa.me/27XXXXXXXXX" class="btn">💬 WhatsApp</a>
+</header>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>24/7 Emergency Plumbing</li>
+    <li>Blocked Drains & Drain Jetting</li>
+    <li>Leak Detection & Pipe Repairs</li>
+    <li>Geyser Installations & Repairs</li>
+  </ul>
+</section>
+
+<section class="areas">
+  <h2>Areas We Serve</h2>
+  <p>Cape Town and surrounding suburbs</p>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <blockquote>“AKG Plumbing fixed our burst pipe in no time. Excellent service!” – Sarah J.</blockquote>
+  <blockquote>“Professional, affordable and reliable. Highly recommended.” – Thabo M.</blockquote>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/akg-logo.png" alt="Plumbing project 1" />
+    <img src="images/akg-logo.png" alt="Plumbing project 2" />
+    <img src="images/akg-logo.png" alt="Plumbing project 3" />
+    <img src="images/akg-logo.png" alt="Plumbing project 4" />
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 AKG Plumbing. All rights reserved.
+</footer>
+
+</body>
+</html>
